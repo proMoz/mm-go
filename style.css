@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: silver;
+  background: radial-gradient(circle, silver 40%, #242424 95%);
+  color: #24292e;
+}
+
+body .section-title {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #f4f4f4;
+}
+
+body header .mm-title {
+  padding-bottom: 20px;
+  color: #f4f4f4;
+}
+
+body header .mm-thumbnail {
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+body .mm-content > * {
+  padding: 20px 0;
+}
+
+body .mm-content .music-info {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+body .mm-content .music-info li {
+  margin: 10px;
+}
+
+body .mm-content .download-text a {
+  color: #0366d6;
+  font-size: 1.5rem;
+}
+
+body .mm-content .download-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .mm-content .download-btn {
+  background-color: #24292e;
+  padding: 20px 70px;
+  color: #f4f4f4;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+body .mm-content .lyrics p {
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+body .posts-container a {
+  text-decoration: none;
+}
+
+body .posts-container .post-cont {
+  background-color: #24292e;
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 20px 20px 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .posts-container .post-cont:hover {
+  background-color: #0366d6;
+}
+
+body footer {
+  color: #f4f4f4;
+}
+
+body footer > * {
+  margin: 20px 0;
+}
+
+body footer .breand {
+  color: #f4f4f4;
+  font-size: 1.8rem;
+  border-left: 10px solid #0366d6;
+  border-radius: 50px;
+  max-width: 150px;
+}
+
+body footer nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body footer nav ul a {
+  color: #f4f4f4;
+  font-size: 1.2rem;
+}
+
+body footer .copyright {
+  border: 5px solid #f4f4f4;
+  -webkit-box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.8);
+          box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.8);
+  max-width: 150px;
+  margin-left: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: start;
+  padding: 20px;
+}
+
+body footer .copyright a {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #f4f4f4;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
