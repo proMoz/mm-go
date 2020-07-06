@@ -44,28 +44,9 @@ body .mm-content .music-info li {
   margin: 10px;
 }
 
-body .mm-content .download-text a {
+body .mm-content .download-text-link a {
   color: #0366d6;
   font-size: 1.5rem;
-}
-
-body .mm-content .download-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-body .mm-content .download-btn {
-  background-color: #24292e;
-  padding: 20px 70px;
-  color: #f4f4f4;
-  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
 }
 
 body .mm-content .lyrics p {
