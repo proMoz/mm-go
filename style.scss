@@ -57,15 +57,22 @@ body {
             text-decoration: none;
         }
         .post-cont {
-            background-color: #24292e;
+            a {
+                // background-color: #24292e;
+                width: 100%;
+                color: #f4f4f4;
+                text-decoration: underline;
+            }
+            list-style: none;
             color: #f4f4f4;
-            text-decoration: none;
             font-size: 1.5rem;
             padding: 20px 20px 50px;
             border-radius: 5px;
             box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: .5);
+            background-color: #24292e;
             margin: 20px 0;
             transition: .3s;
+            width: 100%;
             &:hover {
                 background-color: #0366d6;
             }
@@ -115,15 +122,11 @@ body {
                 color: #f4f4f4;
                 text-decoration: none;
                 text-transform: uppercase;
-                // padding: 15px;
                 
+                &:hover {
+                    color: #0366d6;
+                }
             }
-            // width: 25%;
-            // background-color: #24292e;
-            // color: #0366d6;
-            // padding: 20px;
-            // border: 25px;
-            // box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: .5);
         }
     }
 }

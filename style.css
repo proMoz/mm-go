@@ -59,17 +59,24 @@ body .posts-container a {
 }
 
 body .posts-container .post-cont {
-  background-color: #24292e;
+  list-style: none;
   color: #f4f4f4;
-  text-decoration: none;
   font-size: 1.5rem;
   padding: 20px 20px 50px;
   border-radius: 5px;
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  background-color: #24292e;
   margin: 20px 0;
   -webkit-transition: .3s;
   transition: .3s;
+  width: 100%;
+}
+
+body .posts-container .post-cont a {
+  width: 100%;
+  color: #f4f4f4;
+  text-decoration: underline;
 }
 
 body .posts-container .post-cont:hover {
@@ -126,5 +133,9 @@ body footer .copyright a {
   color: #f4f4f4;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+body footer .copyright a:hover {
+  color: #0366d6;
 }
 /*# sourceMappingURL=style.css.map */
