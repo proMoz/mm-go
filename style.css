@@ -4,61 +4,64 @@
 }
 
 body {
-  width: 80%;
-  margin: 0 auto;
-  padding: 50px 0;
   font-family: Arial, Helvetica, sans-serif;
   background: silver;
   background: radial-gradient(circle, silver 40%, #242424 95%);
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
   color: #24292e;
 }
 
-body .section-title {
+.main .section-title {
   font-size: 1.6rem;
   margin-bottom: 20px;
   color: #f4f4f4;
 }
 
-body header .mm-title {
+.main header .mm-title {
   padding-bottom: 20px;
   color: #f4f4f4;
 }
 
-body header .mm-thumbnail {
+.main header .mm-thumbnail {
   width: 100%;
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
 }
 
-body .mm-content > * {
+.main .mm-content > * {
   padding: 20px 0;
 }
 
-body .mm-content .music-info {
+.main .mm-content .music-info {
   font-size: 1.5rem;
   list-style: none;
 }
 
-body .mm-content .music-info li {
+.main .mm-content .music-info li {
   margin: 10px;
 }
 
-body .mm-content .download-text-link a {
+.main .mm-content .download-text-link a {
   color: #0366d6;
   font-size: 1.5rem;
 }
 
-body .mm-content .lyrics p {
+.main .mm-content .lyrics p {
   font-size: 1.2rem;
   line-height: 25px;
 }
 
-body .posts-container a {
+.main .posts-container a {
   text-decoration: none;
 }
 
-body .posts-container .post-cont {
+.main .posts-container .post-cont {
   list-style: none;
   color: #f4f4f4;
   font-size: 1.5rem;
@@ -73,25 +76,25 @@ body .posts-container .post-cont {
   width: 100%;
 }
 
-body .posts-container .post-cont a {
+.main .posts-container .post-cont a {
   width: 100%;
   color: #f4f4f4;
   text-decoration: underline;
 }
 
-body .posts-container .post-cont:hover {
+.main .posts-container .post-cont:hover {
   background-color: #0366d6;
 }
 
-body footer {
+.main footer {
   color: #f4f4f4;
 }
 
-body footer > * {
+.main footer > * {
   margin: 20px 0;
 }
 
-body footer .breand {
+.main footer .breand {
   color: #f4f4f4;
   font-size: 1.8rem;
   border-left: 10px solid #0366d6;
@@ -99,7 +102,7 @@ body footer .breand {
   max-width: 150px;
 }
 
-body footer nav ul {
+.main footer nav ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,12 +113,12 @@ body footer nav ul {
       flex-wrap: wrap;
 }
 
-body footer nav ul a {
+.main footer nav ul a {
   color: #f4f4f4;
   font-size: 1.2rem;
 }
 
-body footer .copyright {
+.main footer .copyright {
   border: 5px solid #f4f4f4;
   -webkit-box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.8);
           box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.8);
@@ -127,7 +130,7 @@ body footer .copyright {
   padding: 20px;
 }
 
-body footer .copyright a {
+.main footer .copyright a {
   font-size: 1.2rem;
   font-weight: 800;
   color: #f4f4f4;
@@ -135,7 +138,7 @@ body footer .copyright a {
   text-transform: uppercase;
 }
 
-body footer .copyright a:hover {
+.main footer .copyright a:hover {
   color: #0366d6;
 }
 /*# sourceMappingURL=style.css.map */
