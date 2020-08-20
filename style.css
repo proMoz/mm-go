@@ -9,6 +9,20 @@ body {
   background: radial-gradient(circle, silver 40%, #242424 95%);
 }
 
+.music-info {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.music-info li {
+  margin: 10px;
+}
+
+.download-text-link a {
+  color: #0366d6;
+  font-size: 1.5rem;
+}
+
 .main {
   width: 80%;
   margin: 0 auto;
@@ -36,20 +50,6 @@ body {
 
 .main .mm-content > * {
   padding: 20px 0;
-}
-
-.main .mm-content .music-info {
-  font-size: 1.5rem;
-  list-style: none;
-}
-
-.main .mm-content .music-info li {
-  margin: 10px;
-}
-
-.main .mm-content .download-text-link a {
-  color: #0366d6;
-  font-size: 1.5rem;
 }
 
 .main .mm-content .lyrics p {
@@ -140,5 +140,28 @@ body {
 
 .main footer .copyright a:hover {
   color: #0366d6;
+}
+
+.posts-display .post-thumbnail {
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+
+.posts-display article {
+  margin: 60px 0;
+  -webkit-box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts-display article ul {
+  padding: 20px;
+}
+
+.posts-display .download-text-link {
+  background-color: #24292e;
+  border-radius: 7px;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
